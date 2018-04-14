@@ -8,14 +8,9 @@ LuaMonoBehaviour使用方法：
 2.在挂载LuaMonoBehaviour之前，Lua中需要先给LuaMonoBehaviour.tempLuaTable赋值后挂载脚本：
 
 function GameTool.AddBehaviour(gameObject,tablePath)
-
     LuaMonoBehaviour.tempLuaTable = require(tablePath).new();
-    
     local table = LuaMonoBehaviour.tempLuaTable;
-    
     gameObject:AddComponent(typeof(LuaMonoBehaviour));
-    
     return table;
-    
 end
 
