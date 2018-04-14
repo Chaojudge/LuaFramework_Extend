@@ -8,8 +8,11 @@ LuaMonoBehaviour使用方法：
 2.在挂载LuaMonoBehaviour之前，Lua中需要先给LuaMonoBehaviour.tempLuaTable赋值后挂载脚本：
 3.在LuaMonoBehaviour脚本生命周期函数Awake中对luaTable进行初始化并将tempLuaTable置空
 4.由于生命周期函数OnDestroy中将每个生命周期函数调用的LuaFunction释放掉，因此需要使用字典保存各个LuaFunction
-5.注意：FixedUpdate、Update、LateUpdate不要在C#中驱动，尽可能在Lua中使用
-FixedUpdateBeat:Add()、UpdateBeat:Add()、LateUpdateBeat:Add()方法
+5.注意：FixedUpdate、Update、LateUpdate不要在C#中驱动，尽可能在Lua中使用:
+
+    FixedUpdateBeat:Add()
+    UpdateBeat:Add()
+    LateUpdateBeat:Add()
 
     LuaMonoBehaviour.tempLuaTable = require(tablePath).new();
     local table = LuaMonoBehaviour.tempLuaTable;
