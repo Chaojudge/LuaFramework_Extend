@@ -16,7 +16,7 @@ LuaMonoBehaviour使用方法：
 
 6.使用方法，注意需要模拟面向对象的元表：https://blog.csdn.net/honey199396/article/details/50888063
 
-    LuaMonoBehaviour.tempLuaTable = require(tablePath).new();
+    LuaMonoBehaviour.tempLuaTable = require(tablePath).new();
     local table = LuaMonoBehaviour.tempLuaTable;
     gameObject:AddComponent(typeof(LuaMonoBehaviour));
     return table;
