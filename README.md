@@ -1,0 +1,2 @@
+# LuaFramework_Extend
+扩充LuaFramwework，以便所有Unity3D的逻辑全用Lua来写，这里提供思路和代码
