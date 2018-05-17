@@ -60,7 +60,7 @@ LuaEventDispatcher.cs原理：
 	function PackPanel:AddCoinButton_OnClick()
 		local table = {};
 		table.coin = 10;
-    		-- 触发添加金币的监听事件
+		-- 触发添加金币的监听事件
 		LuaEventDispatcher.TriggerListener("Coin","Add",table);
 	end
 
@@ -68,7 +68,7 @@ LuaEventDispatcher.cs原理：
 	function PackPanel:SubCoinButton_OnClick()
 	   	local table = {};
 	    	table.coin = 10;
-	    	-- 触发减少金币的监听事件
+		-- 触发减少金币的监听事件
 	    	LuaEventDispatcher.TriggerListener("Coin","Sub",table);
 	end
 
