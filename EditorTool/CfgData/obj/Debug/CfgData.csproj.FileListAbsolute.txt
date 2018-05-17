@@ -1,0 +1,8 @@
+E:\C# project\类库\GameEditor\CfgData\bin\Debug\CfgData.dll
+E:\C# project\类库\GameEditor\CfgData\bin\Debug\CfgData.pdb
+E:\C# project\类库\GameEditor\CfgData\bin\Debug\UnityEngine.dll
+E:\C# project\类库\GameEditor\CfgData\obj\Debug\CfgData.csprojResolveAssemblyReference.cache
+E:\C# project\类库\GameEditor\CfgData\obj\Debug\CfgData.csproj.CoreCompileInputs.cache
+E:\C# project\类库\GameEditor\CfgData\obj\Debug\CfgData.csproj.CopyComplete
+E:\C# project\类库\GameEditor\CfgData\obj\Debug\CfgData.dll
+E:\C# project\类库\GameEditor\CfgData\obj\Debug\CfgData.pdb

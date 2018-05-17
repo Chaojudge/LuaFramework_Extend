@@ -1,0 +1,9 @@
+E:\C# project\类库\GameEditor\LuaScriptEditor\bin\Debug\LuaScriptEditor.dll
+E:\C# project\类库\GameEditor\LuaScriptEditor\bin\Debug\LuaScriptEditor.pdb
+E:\C# project\类库\GameEditor\LuaScriptEditor\bin\Debug\UnityEditor.dll
+E:\C# project\类库\GameEditor\LuaScriptEditor\bin\Debug\UnityEngine.dll
+E:\C# project\类库\GameEditor\LuaScriptEditor\obj\Debug\LuaScriptEditor.csproj.CoreCompileInputs.cache
+E:\C# project\类库\GameEditor\LuaScriptEditor\obj\Debug\LuaScriptEditor.csproj.CopyComplete
+E:\C# project\类库\GameEditor\LuaScriptEditor\obj\Debug\LuaScriptEditor.dll
+E:\C# project\类库\GameEditor\LuaScriptEditor\obj\Debug\LuaScriptEditor.pdb
+E:\C# project\类库\GameEditor\LuaScriptEditor\obj\Debug\LuaScriptEditor.csprojResolveAssemblyReference.cache

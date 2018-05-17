@@ -1,0 +1,10 @@
+E:\C# project\类库\GameEditor\GameEditor\bin\Debug\GameEditor.dll
+E:\C# project\类库\GameEditor\GameEditor\bin\Debug\GameEditor.pdb
+E:\C# project\类库\GameEditor\GameEditor\bin\Debug\GameDebug.dll
+E:\C# project\类库\GameEditor\GameEditor\bin\Debug\UnityEditor.dll
+E:\C# project\类库\GameEditor\GameEditor\bin\Debug\UnityEngine.dll
+E:\C# project\类库\GameEditor\GameEditor\obj\Debug\GameEditor.csprojResolveAssemblyReference.cache
+E:\C# project\类库\GameEditor\GameEditor\obj\Debug\GameEditor.csproj.CoreCompileInputs.cache
+E:\C# project\类库\GameEditor\GameEditor\obj\Debug\GameEditor.csproj.CopyComplete
+E:\C# project\类库\GameEditor\GameEditor\obj\Debug\GameEditor.dll
+E:\C# project\类库\GameEditor\GameEditor\obj\Debug\GameEditor.pdb
