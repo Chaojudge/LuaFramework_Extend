@@ -36,8 +36,8 @@ LuaEventDispatcher.cs原理：
 			end
 		--]] 
 		self.coinCount = subGet(self.transform,"CoinCount","Text");
-	    self.addCoinButton = subGet(self.transform,"AddCoinButton","Button");
-    	self.subCoinButton = subGet(self.transform,"SubCoinButton","Button");
+	    	self.addCoinButton = subGet(self.transform,"AddCoinButton","Button");
+    		self.subCoinButton = subGet(self.transform,"SubCoinButton","Button");
 	end
 
 	function PackPanel:AddListener()
@@ -59,17 +59,17 @@ LuaEventDispatcher.cs原理：
 	-- 点击添加金币按钮的事件
 	function PackPanel:AddCoinButton_OnClick()
 		local table = {};
-    	table.coin = 10;
-    	-- 触发添加金币的监听事件
-    	LuaEventDispatcher.TriggerListener("Coin","Add",table);
+    		table.coin = 10;
+    		-- 触发添加金币的监听事件
+    		LuaEventDispatcher.TriggerListener("Coin","Add",table);
 	end
 
 	-- 点击减少金币按钮的事件
 	function PackPanel:SubCoinButton_OnClick()
-	    local table = {};
-	    table.coin = 10;
-	    -- 触发减少金币的监听事件
-	    LuaEventDispatcher.TriggerListener("Coin","Sub",table);
+	   	local table = {};
+	    	table.coin = 10;
+	    	-- 触发减少金币的监听事件
+	    	LuaEventDispatcher.TriggerListener("Coin","Sub",table);
 	end
 
 	function PackPanel:OnDestroy()
