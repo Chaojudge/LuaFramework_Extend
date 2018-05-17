@@ -82,14 +82,15 @@
 三. GameObjectLRUPool.cs是基于LRU算法的游戏对象缓冲池
 
      1.新建自定义名称的游戏对象缓冲池，设定其大小
-     2.先使用Instantiate生成物体，后加入至游戏对象缓冲池中
-     3.在加入相对应的游戏对象缓冲池时需要判断：
+     2.先判断缓冲池中是否存在游戏对象
+     	2.1.缓冲池不存在该游戏对象，则先使用Instantiate生成物体，加入相对应的游戏对象缓冲池。
+	2.2.缓冲池存在该游戏对象，则可以直接Instantiate复制一份出来。
+     3.在加入相对应的游戏对象缓冲池时需要判断：
          3.1.存在该游戏对象，不需要添加游戏对象到缓冲池，
          3.2.不存在该游戏对象，则需要判断缓冲池是否有空缺
 			3.2.1.缓冲池有空缺，则直接加入
 			3.2.2.缓冲池没有空缺，则需要删除最近最少使用的游戏对象后再加入
-	使用方法：先判断缓冲池中是否存在游戏对象，如果没有，则先使用Instantiate生成物体
-	后加入缓冲池中，如果有则直接从缓冲池中则先使用Instantiate复制一份出来即可：
+
 	gameObjectLRUPool = new UnityAlgorithm.GameObjectLRUPool("FightGameObjectPool", 10);
 	if (gameObjectLRUPool.GetGameObject("FigthGameObject1") != null)
 	{
