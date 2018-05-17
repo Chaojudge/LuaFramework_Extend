@@ -16,9 +16,10 @@
 	-- 注意配置表文件必须为.txt格式且字符集为UTF8且必须存放在Resources/Cfg文件夹中
 	-- 注意要在customSetting.cs中_GT(typeof(Dictionary<string, Dictionary<string, string>>))
 	local testCfg = CfgData.Cfg.LoadCfgDataFormCSV("testCfg");	--读取配置表
-	log(CfgData.Cfg.ReadCfg("GoodName",1002,testCfg));			--读取指定ID的物品名称
+	log(CfgData.Cfg.ReadCfg("GoodName",1002,testCfg));		--读取指定ID的物品名称
 
 二 CfgFileCreateEditor是CSV文件编辑器扩展的类库，其包含以下功能：
+	
 	1.CSV文件创建，以便于编辑配置表
 	2.批量或单个CSV转换成指定字符集格式的TXT文件，即在Project面板中选择文件夹
 	即可批量转换，选择文件即可单个转换
