@@ -20,7 +20,7 @@
 二. LuaEventDispatcher.cs原理：
 	本人之前所了解的C#中观察者模式有两种，一种是需要Object拆箱装箱来传递参数的，另一种是使用泛型的，而我想要在Lua中使用观察者模式，Lua无法使用泛型，那么只能只用Object拆箱装箱的方法，但是后面发现可以参考我自己扩的LuaMonoBehaviour.cs中驱动Lua脚本以及Lua脚本中函数的特点，我自己写了一个有类似特点的观察者模式，传递参数可以直接传LuaTable，详细具体看LuaEventDispatcher.cs，举个例子，例如：在PackPanel.lua中监听金币增加或减少的事件：
 	
-	--在UI界面初始化时添加和触发观察者监听事件[.lua中]：
+	--在UI界面初始化时添加观察者监听事件[.lua中]：
 	PackPanel.lua = class("PackPanel.lua",BasePanelBehaviour);
 
 	function PackPanel:Awake(obj)
