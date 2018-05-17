@@ -1,5 +1,5 @@
 一 CfgData是读取配置表.txt的类库，其内容格式和.CSV格式一样，原本读取配置表的方法是带有泛型的，而Lua中有userdata类型，
-为了方便在lua中使用，对原先的读取配置表的方法稍做修改，例如testCfg.txt的内容为：
+为了方便在lua中使用，对原先的读取配置表的方法稍做修改，具体详细看Cfg.cs，例如testCfg.txt的内容为：
 	
 	ID,GoodName,Price,limitLevel
 	//物品ID,//物品名称,//物品价格,//使用物品的等级限制
