@@ -44,6 +44,9 @@
 		-- 添加监听事件
 		LuaEventDispatcher.AddListener("Coin","Add",self.AddCoin,self);
 		LuaEventDispatcher.AddListener("Coin","Sub",self.SubCoin,self);
+		-- 添加按钮点击事件
+		self.Behaviour:AddClick(self.addCoinButton,self.AddCoinButton_OnClick);
+		self.Behaviour:AddClick(self.subCoinButton,self.SubCoinButton_OnClick);
 	end
 
 	function PackPanel:AddCoin(table)
